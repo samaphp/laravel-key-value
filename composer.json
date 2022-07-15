@@ -1,0 +1,32 @@
+{
+    "name": "samaphp/laravel-key-value",
+    "description": "Key/value store collection for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Samaphp\\LaravelKeyValue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "samaphp",
+            "email": "samaphp@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0",
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Samaphp\\LaravelKeyValue\\LaravelKeyValueServiceProvider"
+          ],
+          "aliases": {
+            "LaravelKeyValue": "Samaphp\\LaravelKeyValue\\LaravelKeyValue"
+          }
+        }
+    }
+}
