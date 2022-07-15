@@ -40,6 +40,9 @@ dd($keyValue->set('test'));
 This package was inspired by [laravel-settings](https://github.com/qcod/laravel-settings) package by [Mohd Saqueib Ansari](https://github.com/saqueib), but made to be simple and straightforward solution to provide a key/value store functionality.
 If you are looking for alternatives, you can consider laravel-settings package.
 
+- [laraeast/laravel-settings](https://packagist.org/packages/laraeast/laravel-settings)
+- [UniSharp/laravel-settings](https://github.com/UniSharp/laravel-settings)
+
 ### Security
 
 If you discover any security related issues, please [open a new issue](https://github.com/samaphp/laravel-key-value/issues/new) using the issue tracker.
